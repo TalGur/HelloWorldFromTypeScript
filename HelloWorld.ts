@@ -1,6 +1,6 @@
 class Startup {
     public static main(): number {
-        console.log('Hello World from TypeScript!!');
+        console.log('Hello World from TypeScript!! with build task');
         return 0;
     }
 }

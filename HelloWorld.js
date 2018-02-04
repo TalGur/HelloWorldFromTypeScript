@@ -2,7 +2,7 @@ var Startup = /** @class */ (function () {
     function Startup() {
     }
     Startup.main = function () {
-        console.log('Hello World from TypeScript!!');
+        console.log('Hello World from TypeScript!! with build task');
         return 0;
     };
     return Startup;
