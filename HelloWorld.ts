@@ -4,5 +4,5 @@ class Startup {
         return 0;
     }
 }
-
+//https://code.visualstudio.com/docs/languages/typescript
 Startup.main();
