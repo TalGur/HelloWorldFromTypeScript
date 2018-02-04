@@ -9,3 +9,4 @@ var Startup = /** @class */ (function () {
 }());
 //https://code.visualstudio.com/docs/languages/typescript
 Startup.main();
+//# sourceMappingURL=HelloWorld.js.map
