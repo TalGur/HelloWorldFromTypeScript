@@ -11,11 +11,11 @@ var Startup = /** @class */ (function () {
     };
     return Startup;
 }());
-function GetGreeting(isNumeric) {
+function GetGreeting(isNumeric, optionalMessage) {
     if (isNumeric)
-        return 12345678;
+        return 99999;
     else
-        return 'Greetings from TypeScript!! with build task';
+        return 'Greetings from TypeScript!! (type annoptaion branch!))';
 }
 //https://code.visualstudio.com/docs/languages/typescript
 Startup.main();
