@@ -8,9 +8,9 @@ var Startup = /** @class */ (function () {
     };
     return Startup;
 }());
-function GetGreeting() {
-    return 'Greetings from TypeScript!! with build task';
+function GetGreeting(greeting) {
+    if (greeting === void 0) { greeting = 'this is default greeting'; }
+    return greeting;
 }
 //https://code.visualstudio.com/docs/languages/typescript
 Startup.main();
-//# sourceMappingURL=HelloWorld.js.map

@@ -7,9 +7,9 @@ class Startup {
     }
 }
 
-function GetGreeting()
+function GetGreeting(greeting:string = 'this is default greeting'):string
 {
-    return 'Greetings from TypeScript!! with build task';
+    return greeting;
 }
 //https://code.visualstudio.com/docs/languages/typescript
 Startup.main();
